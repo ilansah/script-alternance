@@ -1,0 +1,7 @@
+.env
+envoyes.txt
+__pycache__/
+*.pyc
+.venv/
+venv/
+.DS_Store

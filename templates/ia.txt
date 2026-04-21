@@ -1,0 +1,31 @@
+Sujet: J'ai codé un script pour vous écrire — alternance IA/Data à Lyon
+
+{salutation}
+
+Autant être direct : ce mail vous arrive via un outil d'outreach que j'ai développé moi-même en Python. Le code est public, vous pouvez l'auditer : {script_url}
+
+Concrètement, en ~200 lignes de Python pur (zéro dépendance externe), le script :
+ • s'authentifie en SMTP sur Office 365 via STARTTLS depuis mon adresse école ;
+ • parse un CSV de contacts et injecte des variables dans des templates par secteur (IA, cyber, web) ;
+ • throttle à 90 s entre chaque envoi et plafonne à 25/jour — pour ne jamais déclencher les filtres anti-spam ;
+ • log chaque envoi dans un fichier local, ce qui rend les ré-exécutions idempotentes (aucun doublon envoyé) ;
+ • propose un mode `--dry-run` pour preview avant envoi, et gère proprement les erreurs SMTP.
+
+Pourquoi je vous envoie ça ? Je cherche une alternance IA / Data à Lyon pour la rentrée 2026, et je préfère vous prouver par l'exemple ma capacité à livrer un projet technique de bout en bout plutôt que de l'affirmer dans une énième lettre de motivation. Si ce mail est bien arrivé dans votre boîte (pas dans les spams), c'est que l'outil fonctionne — et c'est déjà un morceau de la démonstration.
+
+Mon profil en bref :
+ • [À REMPLIR — école + année en cours + rythme d'alternance souhaité]
+ • Stack : Python, pandas, scikit-learn, PyTorch, SQL, Git, Docker
+ • Projets concrets : [À REMPLIR — 1 ou 2 projets ML / data avec lien GitHub]
+
+Si vous ouvrez une alternance IA/Data chez {entreprise} ou si mon profil peut coller à un besoin à venir, 15 minutes d'échange me suffisent pour vous convaincre.
+
+ — CV : {cv_url}
+ — GitHub : {github}
+ — LinkedIn : {linkedin}
+ — Code du script d'envoi : {script_url}
+
+Merci pour votre temps,
+
+{nom_complet}
+{tel}

@@ -1,0 +1,31 @@
+Sujet: J'ai codé un script pour vous écrire — alternance Dev Web à Lyon
+
+{salutation}
+
+Autant être direct : ce mail vous arrive via un outil d'outreach que j'ai développé moi-même en Python. Le code est public, vous pouvez l'auditer : {script_url}
+
+Concrètement, en ~200 lignes de Python pur (zéro dépendance externe, juste la stdlib), le script :
+ • s'authentifie en SMTP sur Office 365 via STARTTLS depuis mon adresse école ;
+ • parse un CSV de contacts et injecte des variables dans 3 templates spécialisés (IA, cyber, web) — vous lisez la version `web.txt` ;
+ • throttle à 90 s entre chaque envoi et plafonne à 25/jour pour ne pas tomber en spam ;
+ • log chaque envoi dans un fichier local → ré-exécutions idempotentes, aucun doublon ;
+ • mode `--dry-run` pour preview, gestion propre des erreurs SMTP, pas de PJ (CV en lien raw GitHub).
+
+Pourquoi ? Je cherche une alternance en développement web à Lyon pour la rentrée 2026, et je préfère vous démontrer par un artefact concret — un outil qui tourne, qui est public sur mon GitHub, qui respecte des contraintes d'infra — plutôt que de vous l'écrire dans une lettre de motivation classique. Que ce mail soit arrivé chez vous et pas en spam fait déjà partie de la démonstration.
+
+Ce que je sais faire (au-delà de ce script) :
+ • [À REMPLIR — école + année en cours + rythme d'alternance souhaité]
+ • Stack : [À REMPLIR — ex. JavaScript/TypeScript, React, Node.js, PHP, SQL, Docker, Git]
+ • Projets : [À REMPLIR — 1 ou 2 projets avec lien GitHub ou démo en ligne]
+
+Si {entreprise} ouvre une alternance dev web ou si mon profil peut coller à un besoin à venir, 15 minutes d'échange me suffisent pour vous convaincre.
+
+ — CV : {cv_url}
+ — GitHub : {github}
+ — LinkedIn : {linkedin}
+ — Code du script d'envoi : {script_url}
+
+Merci pour votre temps,
+
+{nom_complet}
+{tel}

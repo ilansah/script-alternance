@@ -1,0 +1,31 @@
+Sujet: J'ai codé un script pour vous écrire — alternance Cybersécurité à Lyon
+
+{salutation}
+
+Autant être direct : ce mail vous arrive via un outil d'outreach que j'ai développé moi-même en Python. Le code est public, vous pouvez l'auditer ligne par ligne : {script_url}
+
+Concrètement, en ~200 lignes de Python pur (zéro dépendance externe), le script :
+ • s'authentifie en SMTP sur Office 365 via STARTTLS depuis mon adresse école ;
+ • parse un CSV de contacts vérifiés (emails extraits uniquement depuis des pages publiques — aucun scraping LinkedIn ni base achetée) ;
+ • throttle à 90 s entre chaque envoi et plafonne à 25/jour — pour respecter les limites anti-spam et ne pas griller la réputation du domaine expéditeur ;
+ • log chaque envoi localement, ce qui rend les ré-exécutions idempotentes (pas de doublon, pas de harcèlement involontaire) ;
+ • gère les erreurs SMTP proprement, propose un mode `--dry-run`, pas de pièce jointe (CV hébergé en lien raw GitHub pour éviter de faire grimper le score spam).
+
+Pourquoi ce mail ? Je cherche une alternance en cybersécurité à Lyon pour la rentrée 2026, et je préfère vous démontrer par l'exemple que je sais livrer un outil propre, documenté et qui respecte les contraintes, plutôt que de l'affirmer dans une lettre de motivation générique. Le fait que ce mail soit arrivé dans votre boîte sans être classé spam fait déjà partie de la preuve.
+
+Mon profil en bref :
+ • [À REMPLIR — école + année en cours + rythme d'alternance souhaité]
+ • Compétences : [À REMPLIR — Linux, réseau, scripting Python/Bash, Burp, Nmap, Wireshark, OSINT]
+ • CTF / projets sécu : [À REMPLIR — Root-Me, HackTheBox, write-ups, projet perso avec lien GitHub]
+
+Si vous recrutez un alternant chez {entreprise} ou si un besoin peut se profiler, 15 minutes d'échange me suffisent pour vous convaincre.
+
+ — CV : {cv_url}
+ — GitHub : {github}
+ — LinkedIn : {linkedin}
+ — Code du script d'envoi : {script_url}
+
+Merci pour votre temps,
+
+{nom_complet}
+{tel}

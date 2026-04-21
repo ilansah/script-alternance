@@ -1,0 +1,38 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "WebFetch(domain:www.novaway.fr)",
+      "WebFetch(domain:www.gda.fr)",
+      "WebFetch(domain:www.novius.com)",
+      "WebFetch(domain:www.algosecure.fr)",
+      "WebFetch(domain:www.sortlist.fr)",
+      "WebFetch(domain:www.welcometothejungle.com)",
+      "WebFetch(domain:jobs.alteo.fr)",
+      "WebFetch(domain:www.esker.fr)",
+      "WebFetch(domain:www.cegid.com)",
+      "WebFetch(domain:kaizen-solutions.net)",
+      "WebFetch(domain:www.a5sys.com)",
+      "WebFetch(domain:www.solutec.fr)",
+      "WebFetch(domain:www.datagenius.fr)",
+      "WebFetch(domain:www.esker.com)",
+      "WebFetch(domain:www.agencedolly.fr)",
+      "WebFetch(domain:agence33degres.com)",
+      "WebFetch(domain:cyber-core.fr)",
+      "WebFetch(domain:calypt.com)",
+      "WebFetch(domain:www.dsecbypass.com)",
+      "WebFetch(domain:invictis.fr)",
+      "WebFetch(domain:www.certilience.fr)",
+      "WebFetch(domain:one-system.fr)",
+      "WebFetch(domain:www.zenika.com)",
+      "WebFetch(domain:www.ippon.fr)",
+      "WebFetch(domain:www.ekino.com)",
+      "WebFetch(domain:www.aquiladata.fr)",
+      "WebFetch(domain:anaya.fr)",
+      "WebFetch(domain:www.piirates.fr)",
+      "WebFetch(domain:cyberconsulting.fr)",
+      "Bash(python -m py_compile envoyer.py)",
+      "Bash(python envoyer.py --dry-run)"
+    ]
+  }
+}
