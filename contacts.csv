@@ -11,3 +11,59 @@ prenom;nom;email;entreprise;domaine;source_url
 ;;lyon@novius.com;Novius Lyon;web;https://www.novius.com/recrutement
 ;;contact@a5sys.com;A5sys Lyon;web;https://www.a5sys.com/mentions-legales/
 ;;solutec@solutec.fr;Solutec;web;https://www.solutec.fr/fr/mentions-legales/
+;;hello@thetribe.io;The Tribe;web;https://www.thetribe.io/mentions-legales/
+;;market@geolid.com;Geolid;web;https://www.geolid.com/mentions-legales/
+;;contact@galadrim.fr;Galadrim;web;https://galadrim.fr/contact/
+;;contact@bioserenity.com;BioSerenity;ia;https://www.bioserenity.com/fr/contact/
+;;contact@evoteo.com;Evoteo;web;https://www.evoteo.fr/contact/
+;;contact@openium.fr;Openium;web;https://www.openium.fr/contact/
+;;projet@digital-cover.fr;Digital Cover;web;https://digital-cover.fr/contact/
+;;contact@elao.com;ELAO;web;https://www.elao.com/contact/
+;;contact@clouddi.fr;Clouddi;web;https://clouddi.fr/contact/
+;;contact@cybercite.fr;Cybercite;web;https://www.cybercite.fr/contact/
+;;bonjour@zol.fr;ZOL;web;https://zol.fr/contact
+Alexandre;Steneck;alexandre.steneck@zol.fr;ZOL (Alex);salarie;https://zol.fr/contact
+;;contact@naratys.com;Naratys (ex 69pixl);web;https://www.naratys.com/contact
+;;hello@axome.com;Axome;web;https://www.axome.com/
+;;contact@luneos.fr;Luneos;web;https://www.luneos.fr/contact/
+;;job@akaru.fr;Akaru;web;https://akaru.fr/contact/
+;;job@mind7.com;Mind7;web;https://mind7.com/contact/
+Emmanuel;Perrin;emmanuel.perrin@coxi-agency.fr;Coxi Agency;salarie;https://www.coxi-agency.fr/contact/
+Marie;Fraisseix;marie.fraisseix@coxi-agency.fr;Coxi Agency;salarie;https://www.coxi-agency.fr/contact/
+;;contact@rezo-zero.com;Rezo Zero;web;https://www.rezo-zero.com/fr/contact
+;;contact@90west.fr;90West;web;https://www.90west.fr/contact/
+;;contact@3dcreation.fr;3D Creation;web;https://3dcreation.fr/contact/
+;;jobs@zeecom.fr;Zeecom;web;https://zeecom.fr/contact/
+Clément;Brossette;clement.brossette@axopen.com;AXOPEN;web;user_csv
+;;cchomarat@amiltone.com;Amiltone;ia;user_csv
+;;contact@shape-it.io;Shape-it;web;user_csv
+;;sbalde@synanto.fr;Synanto;web;user_csv
+;;cbombre@interactiv-technologies.com;Interactiv' Technologies;web;user_csv
+Arthur;Michailesco;arthur.michailesco@soluxan.com;Soluxan;web;user_csv
+Margaux;Montet;margaux.montet@linkeo.com;Linkeo;web;user_csv
+Benjamin;;benjamin@sw-siteinternet.com;SW Agency;web;user_csv
+Gaëlle;Boucher;gaelle.boucher@visiativ.com;Visiativ;web;user_csv
+Yann;Penven;yann.penven@april.fr;April;web;user_csv
+Mohamed;Ahmed;mohamed.ahmed@lcl.fr;LCL;web;user_csv
+;;aaubree@groupama.fr;Groupama;web;user_csv
+Quentin;Pillevesse;quentin.pillevesse@sqli.fr;SQLI (xEFI);web;user_csv
+Lucas;Hissinger;lucas.hissinger@sogeti.com;Sogeti;cyber;user_csv
+Maxence;Forgues;maxence.forgues@atos.net;Atos;web;user_csv
+Brandon;Vouvou;brandon.vouvou@sfr.com;SFR;web;user_csv
+Pauline;Cellier;pauline.cellier@enedis.fr;Enedis;ia;user_csv
+Inès;Petit;ines.petit@coexya.eu;Coexya;web;user_csv
+;;c.raus@endrix.com;Endrix;web;user_csv
+Maureen;Gentil;maureen.gentil@sodiaal.coop;Sodiaal;web;user_csv
+Adélaïde;Mange;adelaide.mange@sysco.com;Sysco France;web;user_csv
+Mathis;Pillié;mathis.pillie@inextenso.fr;In Extenso;web;user_csv
+Louise;Boyer;louise.boyer@market-maker.fr;MARKET MAKER;web;user_csv
+Mathilde;Robert;mathilde.robert@boiron.fr;BOIRON;web;user_csv
+;;ntralongo@2emotion.com;2emotion;web;user_csv
+;;cbenhafed@cegid.com;Cegid;ia;user_csv
+Abdel;Hamdan;abdel.hamdan@esker.com;Esker;web;user_csv
+Rania;Yaqoubi;rania.yaqoubi@sword-group.com;Sword Group;web;user_csv
+Théo;Ramousse;theo.ramousse@hardis-group.com;Hardis Group;web;user_csv
+Achraf;Ferdaous;achraf.ferdaous@soprasteria.com;Sopra Steria;web;user_csv
+;;e.simula@everwin.fr;Everwin;web;user_csv
+Charlotte;Cambray;charlotte.cambray@infotel.com;Infotel;web;user_csv
+Marouane;Elsbahi;marouane.elsbahi@davidson.fr;Davidson Consulting;ia;user_csv

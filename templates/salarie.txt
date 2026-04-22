@@ -1,0 +1,24 @@
+Sujet: Un café (ou 10 min Teams) pour parler alternance chez {entreprise} ?
+
+{salutation}
+
+Je me permets de vous écrire directement plutôt que de passer par la boîte RH — vous aurez sûrement un avis plus utile que n'importe quelle fiche de poste.
+
+Autant vous prévenir tout de suite : ce mail arrive chez vous via un script Python que j'ai codé moi-même. Le code est public, vous pouvez y jeter un œil : {script_url}
+
+Je cherche une alternance à Lyon pour septembre 2026 dans le dev / data, et j'ai repéré {entreprise} comme un endroit où j'aurais envie de bosser. Plutôt que d'envoyer une lettre de motivation dans le vide, j'ai préféré construire ce petit outil qui parse un CSV, personnalise les mails, throttle pour ne pas spammer — à l'image de ce que j'aime coder : des choses simples qui marchent.
+
+Mon profil rapide :
+- Actuellement en 3ème année de licence à l'université Catholique de Lille, je cherche une alternance en rythme 2 semaines entreprise / 2 semaines école pour la rentrée de septembre 2026
+- Stack : Python, pandas, scikit-learn, PyTorch, SQL, Git + JS/React/Node côté web
+- Plusieurs projets perso en data/IA et .NET sur mon GitHub
+Si vous ouvrez une alternance chez {entreprise} — ou si vous connaissez quelqu'un en interne (RH ou manager) à qui mon profil pourrait parler — 10 min de votre temps pour m'orienter me rendraient un énorme service. Même un simple "non, on ne prend pas d'alternant cette année" m'évite de perdre du temps, donc pas de fausse politesse attendue.
+
+CV : {cv_url}
+GitHub : {github}
+LinkedIn : {linkedin}
+
+Merci d'avance,
+
+{nom_complet}
+{tel}

@@ -30,6 +30,7 @@ def load_env():
 ENV = load_env()
 EMAIL = ENV.get("OUTLOOK_EMAIL", "")
 PASSWORD = ENV.get("OUTLOOK_PASSWORD", "")
+REPLY_TO = ENV.get("REPLY_TO", "")
 CV_URL = ENV.get("CV_URL", "")
 NOM_COMPLET = ENV.get("NOM_COMPLET", "Ilan Sahraoui")
 TEL = ENV.get("TELEPHONE", "")
@@ -56,7 +57,7 @@ def deja_envoyes() -> set[str]:
 def charger_template(domaine: str) -> str:
     path = TEMPLATES_DIR / f"{domaine}.txt"
     if not path.exists():
-        raise FileNotFoundError(f"Template manquant : {path} (domaines valides : ia, cyber, web)")
+        raise FileNotFoundError(f"Template manquant : {path} (domaines valides : ia, cyber, web, salarie)")
     return path.read_text(encoding="utf-8")
 
 
@@ -129,7 +130,7 @@ def main():
         c for c in contacts
         if c.get("email", "").strip()
         and c["email"].strip().lower() not in deja
-        and c.get("domaine", "").strip() in {"ia", "cyber", "web"}
+        and c.get("domaine", "").strip() in {"ia", "cyber", "web", "salarie"}
     ]
     print(f"[info] {len(contacts)} contacts chargés, {len(deja)} déjà contactés, "
           f"{len(a_envoyer)} candidats pour ce run.")
@@ -171,6 +172,8 @@ def main():
                     msg = EmailMessage()
                     msg["From"] = EMAIL
                     msg["To"] = dest
+                    if REPLY_TO:
+                        msg["Reply-To"] = REPLY_TO
                     msg["Subject"] = sujet
                     msg.set_content(corps)
                     smtp.send_message(msg)
