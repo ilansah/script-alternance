@@ -1,29 +1,23 @@
-Sujet: J'ai codé un script pour vous écrire — alternance Cybersécurité à Lyon
+Sujet: Candidature alternance Cybersécurité — {entreprise}
 
 {salutation}
 
-Autant être direct : ce mail vous arrive via un outil d'outreach que j'ai développé moi-même en Python. Le code est public, vous pouvez l'auditer ligne par ligne : {script_url}
+Autant vous prévenir tout de suite : ce mail arrive chez vous via un script Python que j'ai codé moi-même. Le code est public, vous pouvez le regarder ici : {script_url}
 
-Concrètement, en ~200 lignes de Python pur (zéro dépendance externe), le script :
- • s'authentifie en SMTP sur Office 365 via STARTTLS depuis mon adresse école ;
- • parse un CSV de contacts vérifiés (emails extraits uniquement depuis des pages publiques — aucun scraping LinkedIn ni base achetée) ;
- • throttle à 90 s entre chaque envoi et plafonne à 25/jour — pour respecter les limites anti-spam et ne pas griller la réputation du domaine expéditeur ;
- • log chaque envoi localement, ce qui rend les ré-exécutions idempotentes (pas de doublon, pas de harcèlement involontaire) ;
- • gère les erreurs SMTP proprement, propose un mode `--dry-run`, pas de pièce jointe (CV hébergé en lien raw GitHub pour éviter de faire grimper le score spam).
+Je cherche une alternance en cybersécurité à Lyon pour septembre 2026, et je préfère démarcher directement les boîtes qui m'intéressent plutôt que d'attendre qu'une offre tombe sur un job board. Au lieu d'une lettre de motivation classique, je trouvais plus parlant de vous montrer un truc que j'ai construit : un outil qui parse un CSV de contacts extraits uniquement depuis des pages publiques (rien de scrapé sauvagement), qui throttle pour ne pas griller la réputation du domaine expéditeur, et qui logge tout localement pour rester idempotent. Rien de révolutionnaire, mais propre et documenté.
 
-Pourquoi ce mail ? Je cherche une alternance en cybersécurité à Lyon pour la rentrée 2026, et je préfère vous démontrer par l'exemple que je sais livrer un outil propre, documenté et qui respecte les contraintes, plutôt que de l'affirmer dans une lettre de motivation générique. Le fait que ce mail soit arrivé dans votre boîte sans être classé spam fait déjà partie de la preuve.
+Mon profil rapide :
+- Actuellement en 3ème année de licence à l'université Catholique de Lille je cherche une alternance en 2 semaines entreprise / 2 semaines école pour la rentrée de septembre 2026
+- Linux, réseau, scripting Python/Bash, outils type Burp / Nmap / Wireshark
+- J'ai utilise tout ces outils lors de ma licence
 
-Mon profil en bref :
- • [À REMPLIR — école + année en cours + rythme d'alternance souhaité]
- • Compétences : [À REMPLIR — Linux, réseau, scripting Python/Bash, Burp, Nmap, Wireshark, OSINT]
- • CTF / projets sécu : [À REMPLIR — Root-Me, HackTheBox, write-ups, projet perso avec lien GitHub]
+Ce que je peux apporter : de la curiosité (indispensable en sécu), un vrai goût pour le code propre, et quelqu'un qui n'attend pas qu'on lui dise quoi faire — ce mail en est plus ou moins la preuve.
 
-Si vous recrutez un alternant chez {entreprise} ou si un besoin peut se profiler, 15 minutes d'échange me suffisent pour vous convaincre.
+Si vous ouvrez une alternance chez {entreprise} ou qu'un besoin se profile, 15 min d'échange me suffisent.
 
- — CV : {cv_url}
- — GitHub : {github}
- — LinkedIn : {linkedin}
- — Code du script d'envoi : {script_url}
+CV : {cv_url}
+GitHub : {github}
+LinkedIn : {linkedin}
 
 Merci pour votre temps,
 

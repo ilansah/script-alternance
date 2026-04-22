@@ -1,29 +1,23 @@
-Sujet: J'ai codé un script pour vous écrire — alternance IA/Data à Lyon
+Sujet: Candidature alternance IA / Data — {entreprise}
 
 {salutation}
 
-Autant être direct : ce mail vous arrive via un outil d'outreach que j'ai développé moi-même en Python. Le code est public, vous pouvez l'auditer : {script_url}
+Autant vous prévenir tout de suite : ce mail arrive chez vous via un script Python que j'ai codé moi-même. Le code est public, vous pouvez y jeter un œil ici : {script_url}
 
-Concrètement, en ~200 lignes de Python pur (zéro dépendance externe), le script :
- • s'authentifie en SMTP sur Office 365 via STARTTLS depuis mon adresse école ;
- • parse un CSV de contacts et injecte des variables dans des templates par secteur (IA, cyber, web) ;
- • throttle à 90 s entre chaque envoi et plafonne à 25/jour — pour ne jamais déclencher les filtres anti-spam ;
- • log chaque envoi dans un fichier local, ce qui rend les ré-exécutions idempotentes (aucun doublon envoyé) ;
- • propose un mode `--dry-run` pour preview avant envoi, et gère proprement les erreurs SMTP.
+Je cherche une alternance IA / Data à Lyon pour septembre 2026, et je préfère démarcher directement les boîtes qui m'intéressent plutôt que d'attendre qu'une offre tombe sur un job board. Au lieu d'une énième lettre de motivation, je trouvais plus honnête de vous montrer ce que je sais faire : un outil qui parse un CSV de contacts, qui personnalise les mails par secteur, qui throttle pour ne pas spammer, et qui logge tout pour éviter les doublons. Rien de révolutionnaire, mais c'est à l'image de ce que j'aime coder — des choses simples qui marchent.
 
-Pourquoi je vous envoie ça ? Je cherche une alternance IA / Data à Lyon pour la rentrée 2026, et je préfère vous prouver par l'exemple ma capacité à livrer un projet technique de bout en bout plutôt que de l'affirmer dans une énième lettre de motivation. Si ce mail est bien arrivé dans votre boîte (pas dans les spams), c'est que l'outil fonctionne — et c'est déjà un morceau de la démonstration.
+Mon profil rapide :
+- Actuellement en 3ème année de licence à l'université Catholique de Lille je cherche une alternance en 2 semaines entreprise / 2 semaines école pour la rentrée de septembre 2026
+- Python, pandas, scikit-learn, PyTorch, SQL, Git
+- J'ai plusieurs projet en python sur de la data disponible sur mon github, et j'ai pris la spécialisation data/ia en 3 ème année de licence   
 
-Mon profil en bref :
- • [À REMPLIR — école + année en cours + rythme d'alternance souhaité]
- • Stack : Python, pandas, scikit-learn, PyTorch, SQL, Git, Docker
- • Projets concrets : [À REMPLIR — 1 ou 2 projets ML / data avec lien GitHub]
+Ce que je peux apporter : de l'énergie, un vrai goût pour le code propre, et quelqu'un qui n'attend pas qu'on lui dise quoi faire — j'ai à peu près prouvé ce dernier point en vous écrivant ce mail.
 
-Si vous ouvrez une alternance IA/Data chez {entreprise} ou si mon profil peut coller à un besoin à venir, 15 minutes d'échange me suffisent pour vous convaincre.
+Si un alternant IA peut intéresser {entreprise}, 15 min d'échange me suffisent pour vous convaincre.
 
- — CV : {cv_url}
- — GitHub : {github}
- — LinkedIn : {linkedin}
- — Code du script d'envoi : {script_url}
+CV : {cv_url}
+GitHub : {github}
+LinkedIn : {linkedin}
 
 Merci pour votre temps,
 
